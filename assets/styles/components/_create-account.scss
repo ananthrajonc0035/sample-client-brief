@@ -1,0 +1,131 @@
+.cabutton{
+    margin-left: 46%;
+    background-color: #278476;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  border:none;
+  &:hover {
+    background-color: #27ae60;
+  }
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f8fb;
+}
+
+
+
+.back-button {
+  display: flex;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    background-color: #278476;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #27ae60;
+    }
+  }
+}
+
+h1 {
+  color: black;
+
+}
+
+.create-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10%;
+
+  .account-form {
+    width: 200%;
+    max-width: 600px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+
+    label {
+      margin-top: 20px;
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+      margin-left: 35px;
+    }
+
+    input {
+      width: 70%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #003c9b0f;
+      margin-left: 35px;
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: #278476;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #27ae60;
+      }
+    }
+  }
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .form-column {
+    flex: 1;
+    margin-right: 16px;
+  }
+}
+.lines{
+   width: 100%;
+  height: 1px;
+  background-color: #cfcfcf; 
+}
+
+.lines2{
+  margin-left: 2%;
+  width: 95%;
+  height: 1px;
+  background-color: #cfcfcf;
+  margin-top: 10px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+  margin: 0; 
+}

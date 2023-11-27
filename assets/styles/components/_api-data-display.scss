@@ -1,0 +1,180 @@
+body {
+  background-color: #cacbcc;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 1%;
+}
+
+.filters {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin-right: 6%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #F8F9FA;
+  
+  height: 50%;
+  max-height: 400px; 
+}
+
+.table {
+  
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+ 
+}
+
+thead th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(253, 253, 253);
+}
+
+.table-row:hover {
+  background-color: #f0f8ff;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+  background-color: #055ae20f;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+    overflow: auto;
+  }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  padding: 5px;
+}
+
+.table {
+  overflow-y: auto;
+  width: 65%; 
+}
+
+.row .column:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.row .column {
+  position: relative;
+  margin-bottom: 20px; 
+}
+
+.row:not(:last-child) .column::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+
+   .styled-table th, .styled-table td {
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+
+ .styled-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+   .styled-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .styled-table-container {
+    width: 80%;
+    overflow: auto;
+  }
+
+  
+.vertical-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 68%; /* Adjust this value to control the position of the line */
+  width: 1px;
+  background-color: #ddd; /* Adjust the color as needed */
+  height: 77%;
+  margin-top: 9%;
+}
